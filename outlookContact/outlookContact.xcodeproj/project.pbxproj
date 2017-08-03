@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		376D299C97A97391E34BBDF5 /* libPods-outlookContact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0077A8A96848033156AF730D /* libPods-outlookContact.a */; };
+		EB09C2681F331D8200FD3004 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB09C2671F331D8200FD3004 /* main.m */; };
+		EB09C26B1F331D8200FD3004 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB09C26A1F331D8200FD3004 /* AppDelegate.m */; };
+		EB09C26E1F331D8200FD3004 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB09C26D1F331D8200FD3004 /* ViewController.m */; };
+		EB09C2711F331D8200FD3004 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB09C26F1F331D8200FD3004 /* Main.storyboard */; };
+		EB09C2741F331D8200FD3004 /* outlookContact.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EB09C2721F331D8200FD3004 /* outlookContact.xcdatamodeld */; };
+		EB09C2761F331D8200FD3004 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB09C2751F331D8200FD3004 /* Assets.xcassets */; };
+		EB09C2791F331D8200FD3004 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB09C2771F331D8200FD3004 /* LaunchScreen.storyboard */; };
+		EB09C2841F33201900FD3004 /* OutlookContacts.m in Sources */ = {isa = PBXBuildFile; fileRef = EB09C2821F33201900FD3004 /* OutlookContacts.m */; };
+		EB09C2851F33201900FD3004 /* OutlookContacts.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB09C2831F33201900FD3004 /* OutlookContacts.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0077A8A96848033156AF730D /* libPods-outlookContact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-outlookContact.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3292B06AA320E37E56A387A0 /* Pods-outlookContact.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-outlookContact.release.xcconfig"; path = "Pods/Target Support Files/Pods-outlookContact/Pods-outlookContact.release.xcconfig"; sourceTree = "<group>"; };
+		D41CBCAC35DEB8140AAD95E5 /* Pods-outlookContact.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-outlookContact.debug.xcconfig"; path = "Pods/Target Support Files/Pods-outlookContact/Pods-outlookContact.debug.xcconfig"; sourceTree = "<group>"; };
+		EB09C2631F331D8200FD3004 /* outlookContact.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = outlookContact.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB09C2671F331D8200FD3004 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EB09C2691F331D8200FD3004 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EB09C26A1F331D8200FD3004 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EB09C26C1F331D8200FD3004 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EB09C26D1F331D8200FD3004 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EB09C2701F331D8200FD3004 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB09C2731F331D8200FD3004 /* outlookContact.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = outlookContact.xcdatamodel; sourceTree = "<group>"; };
+		EB09C2751F331D8200FD3004 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB09C2781F331D8200FD3004 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB09C27A1F331D8200FD3004 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB09C2811F33201900FD3004 /* OutlookContacts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OutlookContacts.h; sourceTree = "<group>"; };
+		EB09C2821F33201900FD3004 /* OutlookContacts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OutlookContacts.m; sourceTree = "<group>"; };
+		EB09C2831F33201900FD3004 /* OutlookContacts.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OutlookContacts.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB09C2601F331D8200FD3004 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				376D299C97A97391E34BBDF5 /* libPods-outlookContact.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76AFA3E457288423C2DF1296 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0077A8A96848033156AF730D /* libPods-outlookContact.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8BDAB5068CDB7A3E9EF306AE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D41CBCAC35DEB8140AAD95E5 /* Pods-outlookContact.debug.xcconfig */,
+				3292B06AA320E37E56A387A0 /* Pods-outlookContact.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EB09C25A1F331D8200FD3004 = {
+			isa = PBXGroup;
+			children = (
+				EB09C2651F331D8200FD3004 /* outlookContact */,
+				EB09C2641F331D8200FD3004 /* Products */,
+				8BDAB5068CDB7A3E9EF306AE /* Pods */,
+				76AFA3E457288423C2DF1296 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EB09C2641F331D8200FD3004 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB09C2631F331D8200FD3004 /* outlookContact.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB09C2651F331D8200FD3004 /* outlookContact */ = {
+			isa = PBXGroup;
+			children = (
+				EB09C2691F331D8200FD3004 /* AppDelegate.h */,
+				EB09C26A1F331D8200FD3004 /* AppDelegate.m */,
+				EB09C26C1F331D8200FD3004 /* ViewController.h */,
+				EB09C26D1F331D8200FD3004 /* ViewController.m */,
+				EB09C26F1F331D8200FD3004 /* Main.storyboard */,
+				EB09C2751F331D8200FD3004 /* Assets.xcassets */,
+				EB09C2771F331D8200FD3004 /* LaunchScreen.storyboard */,
+				EB09C27A1F331D8200FD3004 /* Info.plist */,
+				EB09C2721F331D8200FD3004 /* outlookContact.xcdatamodeld */,
+				EB09C2801F33201900FD3004 /* OutlookView */,
+				EB09C2661F331D8200FD3004 /* Supporting Files */,
+			);
+			path = outlookContact;
+			sourceTree = "<group>";
+		};
+		EB09C2661F331D8200FD3004 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB09C2671F331D8200FD3004 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB09C2801F33201900FD3004 /* OutlookView */ = {
+			isa = PBXGroup;
+			children = (
+				EB09C2811F33201900FD3004 /* OutlookContacts.h */,
+				EB09C2821F33201900FD3004 /* OutlookContacts.m */,
+				EB09C2831F33201900FD3004 /* OutlookContacts.xib */,
+			);
+			path = OutlookView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB09C2621F331D8200FD3004 /* outlookContact */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB09C27D1F331D8200FD3004 /* Build configuration list for PBXNativeTarget "outlookContact" */;
+			buildPhases = (
+				34E46D6D6B3257670F5BD5C3 /* [CP] Check Pods Manifest.lock */,
+				EB09C25F1F331D8200FD3004 /* Sources */,
+				EB09C2601F331D8200FD3004 /* Frameworks */,
+				EB09C2611F331D8200FD3004 /* Resources */,
+				B1417EEEA72EEA6270D14DA9 /* [CP] Embed Pods Frameworks */,
+				F0376934378051051FF68482 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = outlookContact;
+			productName = outlookContact;
+			productReference = EB09C2631F331D8200FD3004 /* outlookContact.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB09C25B1F331D8200FD3004 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = OWNER;
+				TargetAttributes = {
+					EB09C2621F331D8200FD3004 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 8N3AFWU9SM;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EB09C25E1F331D8200FD3004 /* Build configuration list for PBXProject "outlookContact" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB09C25A1F331D8200FD3004;
+			productRefGroup = EB09C2641F331D8200FD3004 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB09C2621F331D8200FD3004 /* outlookContact */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB09C2611F331D8200FD3004 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB09C2851F33201900FD3004 /* OutlookContacts.xib in Resources */,
+				EB09C2791F331D8200FD3004 /* LaunchScreen.storyboard in Resources */,
+				EB09C2761F331D8200FD3004 /* Assets.xcassets in Resources */,
+				EB09C2711F331D8200FD3004 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		34E46D6D6B3257670F5BD5C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B1417EEEA72EEA6270D14DA9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-outlookContact/Pods-outlookContact-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0376934378051051FF68482 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-outlookContact/Pods-outlookContact-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB09C25F1F331D8200FD3004 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB09C2741F331D8200FD3004 /* outlookContact.xcdatamodeld in Sources */,
+				EB09C26E1F331D8200FD3004 /* ViewController.m in Sources */,
+				EB09C26B1F331D8200FD3004 /* AppDelegate.m in Sources */,
+				EB09C2681F331D8200FD3004 /* main.m in Sources */,
+				EB09C2841F33201900FD3004 /* OutlookContacts.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EB09C26F1F331D8200FD3004 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB09C2701F331D8200FD3004 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB09C2771F331D8200FD3004 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB09C2781F331D8200FD3004 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB09C27B1F331D8200FD3004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EB09C27C1F331D8200FD3004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB09C27E1F331D8200FD3004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D41CBCAC35DEB8140AAD95E5 /* Pods-outlookContact.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8N3AFWU9SM;
+				INFOPLIST_FILE = outlookContact/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = strate.core.outlookContact;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EB09C27F1F331D8200FD3004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3292B06AA320E37E56A387A0 /* Pods-outlookContact.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8N3AFWU9SM;
+				INFOPLIST_FILE = outlookContact/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = strate.core.outlookContact;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB09C25E1F331D8200FD3004 /* Build configuration list for PBXProject "outlookContact" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB09C27B1F331D8200FD3004 /* Debug */,
+				EB09C27C1F331D8200FD3004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB09C27D1F331D8200FD3004 /* Build configuration list for PBXNativeTarget "outlookContact" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB09C27E1F331D8200FD3004 /* Debug */,
+				EB09C27F1F331D8200FD3004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EB09C2721F331D8200FD3004 /* outlookContact.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EB09C2731F331D8200FD3004 /* outlookContact.xcdatamodel */,
+			);
+			currentVersion = EB09C2731F331D8200FD3004 /* outlookContact.xcdatamodel */;
+			path = outlookContact.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EB09C25B1F331D8200FD3004 /* Project object */;
+}
