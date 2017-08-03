@@ -10,8 +10,8 @@
 #import <AFNetworking.h>
 
 // IT WILL CREATE APP CREATED FROM CONSOLE
-#define kClientId @"55dc9b85-def2-448f-b0a5-97e9b28920c9"
-#define kRedirectId @"msal55dc9b85-def2-448f-b0a5-97e9b28920c9://auth"
+#define kClientId @""
+#define kRedirectId @""
 
 
 
